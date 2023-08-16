@@ -11,18 +11,18 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class InterviewRupicardGoogleSheetsApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext  context =
+//		ConfigurableApplicationContext  context =
 				SpringApplication.run(InterviewRupicardGoogleSheetsApplication.class, args);
-		GoogleAuthorizeUtil util = new GoogleAuthorizeUtil();
-		try {
-			util.execute();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (GeneralSecurityException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		GoogleAuthorizeUtil util = new GoogleAuthorizeUtil();
+//		try {
+//			util.execute();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (GeneralSecurityException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 
 }

@@ -60,7 +60,7 @@ public class GoogleAuthorizeUtil {
 				.setApplicationName(APPLICATION_NAME)
 				.build();
 	}
-	public static void execute() throws IOException, GeneralSecurityException {
+	public void execute() throws IOException, GeneralSecurityException {
 	    // Build a new authorized API client service.
 	    final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
 	    final String spreadsheetId = "1ByQhdUyTAd5DoRK__n0h2-P-HSLTTl2WlPsLcxD_f8A";
